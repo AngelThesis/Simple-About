@@ -1,0 +1,440 @@
+h1 {
+  position: absolute;
+  top: 4%;
+}
+.Segunda {
+  position: absolute;
+  bottom: 18%;
+  right: 98%;
+}
+.genres {
+  top: 11%;
+  position: absolute;
+}
+.Slam-Death {
+  position: absolute;
+  right: 88%;
+  width: 111px;
+  top: 33%;
+}
+.deathsl {
+  position: absolute;
+  width: 111px;
+  right: 11%;
+  top: 29%;
+  height: 111px;
+  left: 0%;
+}
+.Death-Metal {
+  position: absolute;
+
+  right: 88%;
+  width: 111px;
+  top: 48%;
+}
+.Death {
+  position: absolute;
+  width: 122px;
+  right: 94%;
+  top: 44%;
+  height: 111px;
+}
+.sfan {
+  color: #e12120;
+}
+.deth {
+  position: absolute;
+  top: 27%;
+  left: 1%;
+}
+.dear {
+  color: #b40d0d;
+  position: absolute;
+  right: 95%;
+  top: 41%;
+}
+.metar {
+  color: #2d2a32;
+}
+.and-one {
+  position: absolute;
+  height: 111px;
+  width: 111px;
+  top: 55%;
+  right: 88%;
+}
+.syn {
+  position: absolute;
+
+  top: 59%;
+  right: 96%;
+}
+.pop {
+  position: absolute;
+  height: 111px;
+  width: 111px;
+  top: 61%;
+  left: 0%;
+}
+.Hip {
+  position: absolute;
+  top: 74%;
+  bottom: 6%;
+  right: 96%;
+}
+.fer-gud {
+  position: absolute;
+  width: 122px;
+  height: 111px;
+  bottom: 11%;
+  right: 94%;
+}
+.nuklear {
+  position: absolute;
+  width: 111px;
+}
+.Good {
+  position: absolute;
+  width: 111px;
+  bottom: 16%;
+  right: 88%;
+}
+.naqrear {
+  position: absolute;
+  width: 133px;
+  height: 111px;
+  right: 86%;
+  bottom: 0%;
+}
+.tras-metar {
+  color: #c7341c;
+  position: absolute;
+  bottom: 9%;
+  right: 88%;
+  top: 85%;
+}
+.sfer {
+  color: #c24632;
+}
+.nuklear {
+  position: absolute;
+  right: 80%;
+  bottom: 4%;
+}
+.top5Movies {
+  position: absolute;
+  right: 1%;
+  bottom: 5%;
+}
+.muv {
+  position: absolute;
+  right: 7%;
+  bottom: 81%;
+  right: 8%;
+}
+.m {
+  position: absolute;
+  height: 155px;
+  width: 155px;
+  right: 2%;
+  bottom: 45%;
+}
+.o {
+  position: absolute;
+  height: 155px;
+  width: 155px;
+  right: 11%;
+  bottom: 44%;
+}
+.v {
+  position: absolute;
+  height: 155px;
+  width: 155px;
+  right: 7%;
+  bottom: 63%;
+}
+.i {
+  position: absolute;
+  height: 155px;
+  width: 155px;
+  right: 2%;
+  bottom: 28%;
+}
+.e {
+  position: absolute;
+  height: 155px;
+  width: 155px;
+  right: 11%;
+  bottom: 28%;
+}
+.Jams {
+  position: absolute;
+  right: 47%;
+  color: #e12120;
+  font-family: "Eater", serif;
+}
+.Rest-My-Child {
+  position: absolute;
+  width: 400px;
+  right: 43%;
+  bottom: 68%;
+}
+.par {
+  position: absolute;
+
+  right: 100%;
+
+  font-family: "Coiny", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: #2d2a32;
+}
+.Hellye {
+  position: absolute;
+  left: 0%;
+  color: #2d2a32;
+  font-family: "Coiny", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.bady {
+}
+table,
+th,
+td {
+  border: 1px solid;
+}
+.favbook {
+  position: absolute;
+  right: 22%;
+  bottom: 38%;
+  top: 22%;
+}
+.davaleba {
+  background-color: #f2f2f2;
+}
+.dav {
+  background-color: #f2f2f2;
+}
+.da {
+  background-color: #f2f2f2;
+}
+.buq {
+  position: absolute;
+  right: 27%;
+  bottom: 78%;
+}
+.buu {
+  position: absolute;
+  right: 28%;
+  bottom: 64%;
+}
+.hub {
+  position: absolute;
+  bottom: 55%;
+  right: 23%;
+}
+.jr {
+  position: absolute;
+  height: 155px;
+  width: 155px;
+  right: 33%;
+  bottom: 37%;
+}
+.ait {
+  position: absolute;
+  height: 155px;
+  width: 155px;
+  right: 22%;
+  bottom: 37%;
+}
+.clockwur {
+  position: absolute;
+  height: 155px;
+  width: 155px;
+  right: 28%;
+  bottom: 18%;
+}
+#Table2 {
+  width: 199px;
+  color: green;
+  position: absolute;
+  bottom: 71%;
+  right: 67%;
+}
+.beba {
+  background-color: #483475;
+}
+
+.contack {
+  position: absolute;
+  right: 46%;
+  bottom: 55%;
+  font-family: "Coiny", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: #855988;
+}
+.inst {
+  height: 55px;
+  width: 55px;
+  position: absolute;
+  bottom: 48%;
+  right: 55%;
+}
+.kono {
+  position: absolute;
+  height: 55px;
+  width: 100px;
+  bottom: 48%;
+  right: 49%;
+}
+.sfetq {
+  position: absolute;
+  height: 55px;
+  width: 55px;
+  bottom: 48%;
+  right: 45%;
+}
+.sfea {
+  position: absolute;
+  height: 55px;
+  width: 55px;
+  bottom: 48%;
+  right: 41%;
+}
+.kunu {
+  position: absolute;
+  bottom: 0%;
+  right: 29%;
+}
+.nta {
+  position: absolute;
+  right: 3%;
+}
+.neta {
+  position: absolute;
+  bottom: 49%;
+  right: 3%;
+  height: 333px;
+}
+.buba {
+  position: absolute;
+  right: 3%;
+  height: 333px;
+  bottom: 11%;
+}
+.product-card {
+  position: absolute;
+
+  border: 1px solid;
+  width: 355px;
+  bottom: 28%;
+  right: 77%;
+}
+.batn {
+  position: absolute;
+  width: 88px;
+  height: 40px;
+  right: 42%;
+  top: 111%;
+}
+.fe {
+  width: 355px;
+  height: 355px;
+}
+.fear {
+  position: absolute;
+  top: 0%;
+  right: 11%;
+}
+.price {
+  position: absolute;
+  top: 99%;
+  right: 48%;
+}
+.kart {
+  position: absolute;
+  bottom: 19%;
+  right: 82%;
+  width: 55px;
+  height: 55px;
+}
+
+.fradaqt {
+  position: absolute;
+  bottom: 28%;
+  right: 44%;
+  width: 355px;
+  height: 355px;
+  border: solid 1px;
+}
+.castlevania {
+  width: 355px;
+  height: 355px;
+}
+.bel {
+  position: absolute;
+  top: -8%;
+  right: 11%;
+}
+
+.mont {
+  position: absolute;
+  top: 97%;
+  right: 49%;
+}
+.rah {
+  position: absolute;
+  top: 110%;
+  right: 42%;
+  width: 88px;
+  height: 40px;
+}
+.qart {
+  position: absolute;
+  bottom: -23%;
+  right: 27%;
+  width: 55px;
+  height: 55px;
+}
+.steam {
+  position: absolute;
+  right: 0%;
+  bottom: 5%;
+  width: 355px;
+  height: 311px;
+}
+.gift {
+  position: absolute;
+  bottom: 96%;
+  right: 33%;
+}
+.frais {
+  position: absolute;
+  right: 42%;
+  bottom: -11%;
+}
+.stream {
+  position: absolute;
+
+  border: solid 1px;
+  width: 355px;
+  height: 355px;
+  right: 11%;
+  bottom: 29%;
+}
+.buty {
+  position: absolute;
+  bottom: -20%;
+  right: 36%;
+  width: 88px;
+  height: 40px;
+}
+.vefe {
+  position: absolute;
+  bottom: -21%;
+  width: 55px;
+  height: 55px;
+  right: 21%;
+}

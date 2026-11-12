@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Web</title>
+    <link rel="stylesheet" href="ed.css" />
+  </head>
+  <body style="background-color: #141852">
+    <br />
+    <h1>Hello World!</h1>
+    <img src="fm.jpg" style="width: 400px" height="auto" alt="" />
+    <h2><a href="about.html"> About </a></h2>
+    <audio type="audio/mpeg" src="muzak.mp3" loop></audio>
+
+    <audio id="bgm" src="muzak.mp3" loop autoplay></audio>
+
+    <script>
+      const audio = document.getElementById("bgm");
+      let started = false;
+
+      function startMusic() {
+        if (started) return;
+        started = true;
+        audio.play().catch(() => {});
+      }
+
+      ["click", "touchstart", "keydown"].forEach((evt) =>
+        document.addEventListener(evt, startMusic, { once: true }),
+      );
+    </script>
+  </body>
+</html>

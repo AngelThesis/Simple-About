@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link rel="stylesheet" href="about.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Coiny&family=Eater&display=swap");
+    </style>
+	<style>
+
+	</style>
+  </head>
+  <body class="bady">
+    <article class="Jams">
+      <h2>James Sunderland</h2>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <b class="par"><span>Things I Enjoy:</span></b>
+      <br />
+      <br />
+
+      <p class="Hellye">
+        <span
+          >Gaming Movies Anime Music
+          <i class="ei"
+            >What I Do Now: Learning front end plan to learn backend too</i
+          >
+        </span>
+      </p>
+    </article>
+    <b class="muv">My Top 5 Movies</b>
+    <h1>My Fav Genres Of Music</h1>
+
+    <ul class="genres">
+      <li>Thrash-Metal</li>
+      <li>Hip-Hop</li>
+      <li>Synthpop</li>
+      <li>Death-Metal</li>
+      <li>Slam-Death Metal</li>
+    </ul>
+    <ol class="top5Movies">
+      <li>A Clockwork Orange</li>
+      <ul>
+        Alex DeLarge
+      </ul>
+      <li>Howls Moving Castle</li>
+      <ul>
+        Howl Calcifer Sophie
+      </ul>
+      <li>Star Wars Revenge Of The Sith</li>
+      <ul>
+        Anakin Skywalker Obi-Wan Kenobi
+      </ul>
+      <li>Lord Of The Ring</li>
+      <ul>
+        Frodo Samwise Aragorn Gandalf
+      </ul>
+      <li>Akira</li>
+      <ul>
+        Shoutarou Kaneda
+      </ul>
+    </ol>
+    <img class="m" src="sp.jpg" alt="" />
+    <img class="o" src="v.jpg" alt="" />
+    <img class="v" src="a.jpg" alt="" />
+    <img class="i" src="rev.jpg" alt="" />
+    <img class="e" src="c.jpg" alt="" />
+    <img class="Rest-My-Child" src="Rest.gif" />
+
+    <b class="deth">Slam <span class="sfan">Death</span> Metal</b>
+    <i class="dear"> Death <span class="metar">Metal</span></i>
+    <b class="syn">Synthpop </b>
+    <b class="Hip">Hip-Hop</b>
+    <i class="tras-metar">Thrash<span class="sfer"> Metal</span></i>
+    <img class="pop" src="Electrocution_track_cover.jpg" alt="" />
+
+    <img class="fer-gud" src="Feel Gut.jpg" alt="" />
+    <img class="Death" src="perseverance.jpg" />
+    <audio class="and-one" controls src="and one.mp3"></audio>
+    <audio class="Death-Metal" controls src="Death Metal.mp3"></audio>
+    <audio
+      controls
+      type="audio/mpeg"
+      src="Exsanguination - Backyard Savagery.mp3"
+      class="Slam-Death"
+    ></audio>
+    <audio class="Good" controls type="audio/mpeg" src="Feel Good.mp3"></audio>
+    <audio class="nuklear" controls type="audio/mpeg" src="Nuclear.mp3"></audio>
+    <audio id="bgm" src="Restless Dreams.mp3" loop autoplay></audio>
+
+    <script>
+      const audio = document.getElementById("bgm");
+      let started = false;
+
+      function startMusic() {
+        if (started) return;
+        started = true;
+        audio.play().catch(() => {});
+      }
+
+      ["click", "touchstart", "keydown"].forEach((evt) =>
+        document.addEventListener(evt, startMusic, { once: true }),
+      );
+    </script>
+
+    <img class="deathsl" src="deathsl.jpg" alt="" />
+    <img class="naqrear" src="Persecution Mania_album_cover.jpg" alt="" />
+	
+
+    <i class="buq">My Fav Books</i>
+    <table class="favbook">
+      <tr>
+        <th class="davaleba">Name</th>
+        <th class="dav">Year</th>
+        <th class="da">Author</th>
+      </tr>
+      <tr>
+        <td>A Clockwork Orange</td>
+        <td>1962</td>
+        <td>Anthony Burgess</td>
+      </tr>
+    </table>
+
+    <table class="buu">
+      <tr>
+        <th>Name</th>
+        <th>Year</th>
+        <th>Author</th>
+      </tr>
+      <tr>
+        <td>IT</td>
+        <td>1986</td>
+        <td>Stephen King</td>
+      </tr>
+    </table>
+    <table class="hub">
+      <tr>
+        <th>Name</th>
+        <th>Year</th>
+        <th>Author</th>
+      </tr>
+      <tr>
+        <td>The Lord of the Rings</td>
+        <td>1954</td>
+        <td>J.R.R Tolkien</td>
+      </tr>
+    </table>
+    <img class="jr" src="jrr.jpg" alt="" />
+    <img class="clockwur" src="Clockwork_orange.jpg" alt="" />
+    <img class="ait" src="it.jpg" alt="" />
+	<table id="Table2">
+		<tr id="tr2">
+			<th id="th2">
+				Days of the week
+			</th>
+		</tr>
+		<tr>
+			<td >Monday</td>
+
+		</tr>
+	     <tr>
+			<td id="td2">Tuesday</td>
+		 </tr>
+		 <tr>
+			<td>Wednesday</td>
+		 </tr>
+		 <tr><td>
+			Thursday
+		 </td></tr>
+		<td>Friday</td>
+		</tr>
+          <tr><td>
+			Saturday
+		  </td></tr>
+		 <tr><td>
+			Sunday
+		 </td></tr>
+	</table>
+  </body>
+</html>
